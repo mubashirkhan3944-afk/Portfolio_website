@@ -1,7 +1,7 @@
 
 # Portfolio Website
 
-Personal portfolio built with React + TypeScript + Vite.
+Personal portfolio built with React + TypeScript + Vite + GSAP.
 
 ## Run locally
 
