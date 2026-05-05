@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Inter:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Unbounded", sans-serif;
+
+  --color-accent: #c8f55a;
+  --color-accent-dark: #a8d440;
+  --color-bg: #000000;
+  --color-bg-secondary: #0a0a0a;
+  --color-bg-tertiary: #111111;
+  --color-text: #f0ede6;
+  --color-muted: #bcbcbc;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-[#f0ede6] font-sans font-normal overflow-x-hidden antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight font-bold text-accent;
+  }
+}
+
+.bento-card {
+  @apply bg-bg-secondary border border-white/10 rounded-3xl transition-all duration-300;
+}
+
+.cursor {
+  @apply fixed pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent;
+  width: 10px;
+  height: 10px;
+  transition: width 0.3s, height 0.3s;
+}
+
+.cursor-follower {
+  @apply fixed pointer-events-none z-[9998] -translate-x-1/2 -translate-y-1/2 rounded-full border border-accent/40;
+  width: 36px;
+  height: 36px;
+  transition: left 0.12s ease, top 0.12s ease, width 0.3s, height 0.3s, border-color 0.3s;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 60px;
+  animation: marquee 18s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
