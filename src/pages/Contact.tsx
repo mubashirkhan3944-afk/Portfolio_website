@@ -48,7 +48,7 @@ export default function Contact() {
           
           <div className="relative z-10 w-full max-w-full overflow-hidden">
             <div className="reveal font-mono text-[10px] tracking-[4px] text-accent uppercase mb-6 font-bold flex items-center justify-center gap-2">
-              <span className="w-6 h-px bg-accent opacity-50"></span> Available for new projects
+              <span className="w-6 h-px bg-accent opacity-50"></span> Available for projects
             </div>
             
             <h2 className="reveal text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display tracking-tight mb-8 uppercase leading-tight md:leading-[1.1]">
