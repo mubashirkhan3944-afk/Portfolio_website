@@ -73,6 +73,7 @@ function AnimatedRoutes() {
             </motion.div>
           }
         />
+        
         <Route
           path="/contact"
           element={
