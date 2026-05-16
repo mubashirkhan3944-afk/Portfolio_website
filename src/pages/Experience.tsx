@@ -51,28 +51,28 @@ export default function Experience() {
       type: 'Freelance'
     },
     {
-      year: '2024 — 2025',
+      year: '2025 — present',
       role: 'React Interaction Developer',
       company: 'Digital Agency',
       desc: 'Specialized in creating micro-interactions and high-performance UI components for high-traffic web apps.',
       type: 'Contract'
     },
     {
-      year: '2024',
+      year: '2026',
       role: 'Project Lead',
       company: 'Digital 3D Website',
       desc: 'Engineered a fully immersive 3D environment using Three.js and GSAP, achieving 90+ lighthouse scores.',
       type: 'Project'
     },
     {
-      year: '2023 — 2024',
+      year: '2025 — 2026',
       role: 'Web Game Developer',
       company: 'Independent Release',
       desc: 'Designed and developed a browser-based arcade game with custom physics and real-time state management.',
       type: 'Project'
     },
     {
-      year: '2023',
+      year: '2026',
       role: 'Systems Architect',
       company: 'Backend Design Challenge',
       desc: 'Architected a scalable microservices backend for a distributed system, focusing on data integrity and speed.',
